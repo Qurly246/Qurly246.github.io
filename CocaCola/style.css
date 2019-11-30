@@ -1,0 +1,158 @@
+html{
+	scroll-behavior: smooth;
+}
+body, p{
+	margin:0;
+	font-family: 'Lobster', cursive;
+	overflow-x: hidden;
+}
+h2{
+	text-align:center;
+}
+header{
+	width: 100vw;
+	height: 100vh;
+background-image: linear-gradient(to right top, #b0722e, #cc4f41, #d52370, #b428b0, #1254eb);
+}
+nav{
+	display: flex;
+	height: 50px;
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 35px;
+	align-items: center;
+	padding-top: 30px;
+}
+nav p{
+	margin-right: 100px;
+	font-size: 23px;
+}
+nav p:nth-child(1){
+	flex-grow: 1;
+	font-size: 35px;
+	margin-left: 105px;
+}
+.cont1{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.cont1 img{
+	width: 50%;
+	align-self: center;
+}
+.text{
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 60%;
+}
+.text h1{
+	font-size: 40px;
+
+}
+.text p{
+	width: 45%;
+	font-size: 20px;
+	margin-bottom: 50px;
+	color:violet;
+}
+ a {
+	font-size: 20px;
+	margin-right: 70px;
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 30px;
+	padding: 10px 20px;
+}
+.cont1{
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+	margin-bottom: 7vw;
+}
+section{
+	width: 100vw;
+	height: 100vh;
+}
+h2{
+	font-size: 3vw;
+}
+.cont2{
+	margin-right: 5vw;
+}
+.cont3{
+	padding-top: 4vw;
+	width: 50%;
+	line-height: 2vw;
+	font-weight: bold;
+}
+.offer{
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 5vw;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+.offer div{
+	padding: 1vw;
+	text-align: center;
+	width: 20vw;
+	height: 20vw;
+	border: 2px solid black;
+	margin-right: 2vw;
+}
+#third{
+	position: relative;
+}
+#third h2 {
+	margin: 0;
+	padding-top: 45px;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.brend{
+	width: 14%;
+	position: absolute;
+	transition: transform 0.4s ease;
+}
+.brend:nth-of-type(1){
+	width: 17%;
+	left: 10%;
+	top: 20%;
+}
+.brend:nth-of-type(2){
+	top: 40%;
+	left: 25%;
+}
+.brend:nth-of-type(3){
+	top: 75%;
+	left: 50%;
+	margin-left: -8.5%;
+}
+.brend:nth-of-type(4){
+	top: 40%;
+	right: 25%;
+}
+.brend:nth-of-type(5){
+	top: 22%;
+	right: 11%;
+}
+.brend:hover{
+	transition: scale(1.1);
+}
+
+
+
+
